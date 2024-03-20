@@ -47,6 +47,7 @@ This is a simple application that demonstrates how to interact with Kubernetes a
 ### Testing
 
 ```
+export KUBECONFIG=~/.kube/config
 go run main.go
 curl localhost:8080
 ```
